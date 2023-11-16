@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box; color: #333;}
+a {color: #333; text-decoration: none;}
+
+.traveler {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.842)1f1;
+}
+
+.traveler .inner {
+    width: 800px;
+    height: 100%;
+    margin: 100px auto;
+}
+
+.traveler .inner h1 {
+    text-align: left;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.traveler .inner img {
+    width: 500px;
+}
+
+.traveler .inner h3 {
+    text-align: right;
+    padding: 3px;
+    font-size: 12px;
+    margin-right: 100px;
+}
+.traveler .inner h3 > a {
+    color: #111;
+}
